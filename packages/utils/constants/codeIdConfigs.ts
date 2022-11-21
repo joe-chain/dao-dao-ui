@@ -34,7 +34,24 @@ const junoMainnet: CodeIdConfig = {
   CwdVotingNativeStaked: -1,
 }
 
+const joeMainnet: CodeIdConfig = {
+  Cw20Base: 7,
+  Cw20Stake: -1,
+  Cw4Group: -1,
+  CwAdminFactory: -1,
+  CwdCore: -1,
+  CwdPreProposeMultiple: -1,
+  CwdPreProposeSingle: -1,
+  CwdProposalMultiple: -1,
+  CwdProposalSingle: -1,
+  CwdVotingCw20Staked: -1,
+  CwdVotingCw4: -1,
+  CwdVotingCw721Staked: -1,
+  CwdVotingNativeStaked: -1,
+}
+
 export const CodeIdConfigs: Record<string, CodeIdConfig | undefined> = {
   'uni-5': junoTestnet,
   'juno-1': junoMainnet,
+  'joe-1': joeMainnet,
 }
